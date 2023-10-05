@@ -73,6 +73,7 @@ def download_concorde_qsopt():
     if not exists(qsopt_a_path) or not exists(qsopt_h_path):
         print("qsopt is missing, downloading")
         machine = platform.machine()
+        print("Machine %s; System %s" % (machine, platform.system()))
         qsopt_a_url, qsopt_h_url = QSOPT_LOCATION[platform.system()][machine]
         urlretrieve(qsopt_a_url, qsopt_a_path)
         urlretrieve(qsopt_h_url, qsopt_h_path)
