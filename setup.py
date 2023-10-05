@@ -51,10 +51,6 @@ QSOPT_LOCATION = {
             "https://www.math.uwaterloo.ca/~bico/qsopt/beta/codes/PIC/qsopt.PIC.a",
             "https://www.math.uwaterloo.ca/~bico/qsopt/beta/codes/PIC/qsopt.h",
         ),
-        "aarch64": (
-            "https://www.math.uwaterloo.ca/~bico/qsopt/downloads/codes/ubuntu/qsopt.a",
-            "https://www.math.uwaterloo.ca/~bico/qsopt/downloads/codes/ubuntu/qsopt.h",
-        ),
     },
 }
 
