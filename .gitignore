@@ -1,5 +1,5 @@
 *.pyc
-concorde/_concorde.c
+concorde/_concorde.c*
 
 build/
 concorde.egg-info/
